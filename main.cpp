@@ -29,6 +29,8 @@ void handleValue(char k) {
         cells[current]--;
     } else if (k == '.') {
         cout << +cells[current] << endl;
+    } else if (k == ',') {
+        cin.get(cells[current]);
     } else if (k == '[') {
         int loop = 1;
         string loopingSeries = "";
