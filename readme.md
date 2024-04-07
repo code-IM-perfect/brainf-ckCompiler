@@ -10,3 +10,6 @@ This is a simple c++ program and can easily be built via `g++` and the likes. Th
 ```
 	g++ main.cpp
 ```
+
+## Usage
+After running the executable, just feed in the brainfuck commands.\
