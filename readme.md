@@ -8,7 +8,7 @@ It is fully consistent with the brainf*ck standard. One thing that I could not f
 This is a simple c++ program and can easily be built via `g++` and the likes. The linux binary can be found in the [Releases Section] (https://github.com/code-IM-perfect/brainf_ckCompiler/releases), Windows and Mac users can compile it themselves (I'm sorry I don't have enough space to dualboot)
 
 ```
-	g++ main.cpp
+g++ main.cpp
 ```
 
 ## Usage
