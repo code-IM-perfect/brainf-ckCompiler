@@ -57,7 +57,12 @@ void handleValue(char k) {
 int main() {
     char k;
 
+    cout << "Brainf*ck Interpreter\nby Harshit Tomar (harshitt23)\n\n";
+
     while (cin.get(k)) {
+        if (k == 'q') {
+            break;
+        }
         handleValue(k);
     }
 

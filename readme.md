@@ -13,3 +13,4 @@ This is a simple c++ program and can easily be built via `g++` and the likes. Th
 
 ## Usage
 After running the executable, just feed in the brainfuck commands.\
+Use `q` to exit the interpretter (you can always use the good ol' `ctrl+c` tho haha)
