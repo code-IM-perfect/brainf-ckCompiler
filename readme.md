@@ -5,10 +5,10 @@ This is a [brainf*ck](https://esolangs.org/wiki/Brainfuck) interpretter written 
 It is fully consistent with the brainf*ck standard. One thing that I could not find any consistant info about was the "," operator, I have set it to take a single char value as input.
 
 ## Building
-This is a simple c++ program and can easily be built via `g++` and the likes. The linux binary can be found in the [Releases Section](https://github.com/code-IM-perfect/brainf_ckCompiler/releases). Windows and Mac binarys are also available but are untested (I'm sorry I don't have enough space to dualboot). Users can obviously always compile it themselves tho
+This is a simple c++ program and can easily be built via `g++` and the likes. The linux binary can be found in the [Releases Section](https://github.com/code-IM-perfect/brainf_ckCompiler/releases). Windows binary are also available but are untested (I'm sorry I don't have enough space to dualboot). Mac users will have to compile it themselves unfortunately
 
 ```
-g++ main.cpp
+g++ main.cpp -o interpreter
 ```
 
 ## Usage
